@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+
+		<title>Programación I | Final | Vedia, Leandro | Correa, Adrian</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="joystick.ico" />
+        <link rel="stylesheet" href="bootstrap.css" />
+        <link rel="stylesheet" href="estilos.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	</head>
+	<body>
+
+		<header class="sticky-top">
+			<nav class="navbar-expand navbar navbar-dark bg-dark">
+				<div class="container-fluid">
+					<h1 class="d-flex align-items-center mb-0"><a class="navbar-brand" href="#" id="todos"><i class="bi bi-controller"></i> LoJueguito</a></h1>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link" href="#" id="ps4">Playstation</a>
+							<a class="nav-link" href="#" id="switch">Nintendo</a>
+							<a class="nav-link" href="#" id="xbox">Xbox</a>
+							<a class="nav-link position-absolute end-0 mx-5" href="#" id="carrito"><i class="bi bi-cart"></i> (<span class="navcantidad">0</span>) <span class="navprecio">$0</span></a>
+						</div>
+					</div>
+				</div>
+			  </nav>
+		</header>
+
+		<section>			
+			<div id="ofertas">
+			</div>
+		</section>
+
+		<main>
+			
+			<section class="fondojuegos pb-5">
+
+				<div class="container-fluid juegos">
+				</div>
+
+				<div class="container-fluid carrito">
+					<div class="row">
+						<div class="col-12 p-0">
+							<div class="shopping-cart-total d-flex align-items-center justify-content-between px-5 py-3">
+								<div class="d-flex">
+									<p class="mx-3 mb-0 my-auto fw-bold fs-4">Total</p>
+									<p class="mx-3 ml-4 my-auto CarritoTotal fw-bold fs-4">0$</p>
+								</div>
+								<div>
+									<button class="btn btn-secondary btn btn-outline-light ms-auto botonvaciar" type="button">Vaciar Carrito</button>
+									<button class="btn btn-warning btn btn-outline-light botoncompra ms-auto" type="button">Iniciar Compra</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row pb-2 px-5">
+						<div class="col-5">
+							<div class="compra">
+								<h3 class="h5">Producto</h3>
+							</div>
+						</div>
+						<div class="col-2">
+							<div class="compra">
+								<h3 class="text-truncate h5">Precio</h3>
+							</div>
+						</div>
+						<div class="col-2">
+							<div class="compra">
+								<h3 class="h5">Cantidad</h3>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="compra px-4">
+								<h3 class="h5">Subtotal</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="row compraritems contenedorcarrito px-5"></div>
+
+				</div>
+
+			</section>
+
+		</main>
+
+		<footer class="bg-dark fw-light">
+			<ul class="m-0 p-0">
+				<li>Profesor Alejandro Potente</li>
+				<li>Programación I | Final | Vedia, Leandro | Correa, Adrian | E-commerce</li>
+				<li>alejandro.potente@davinci.edu.ar</li>
+			</ul>
+		</footer>
+		<script src="final.js"></script>
+	</body>
+</html>

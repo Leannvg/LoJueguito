@@ -1,0 +1,8 @@
+Alumno-1: Leandro Gabriel Vedia
+Alumno-2: Adrian Leonel Correa 
+Cuatrimestre: 2do
+Comisión: dwt2a
+Carrera: Diseño y programación web
+Turno: Tarde
+Materia: Programación 1
+Profesor: Alejandro Potente
